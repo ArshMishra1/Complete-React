@@ -1,0 +1,40 @@
+.name-card {
+	align-items: center;
+	background: #ffffff;
+	border: 1px solid #d9e2ec;
+	border-radius: 12px;
+	box-shadow: 0 8px 24px rgba(31, 55, 78, 0.1);
+	display: flex;
+	gap: 16px;
+	margin: 24px 0;
+	max-width: 360px;
+	padding: 18px 20px;
+}
+
+.name-card__avatar {
+	align-items: center;
+	background: #176b87;
+	border-radius: 50%;
+	color: #ffffff;
+	display: flex;
+	flex: 0 0 48px;
+	font-size: 1.25rem;
+	font-weight: 700;
+	height: 48px;
+	justify-content: center;
+	width: 48px;
+}
+
+.name-card__label {
+	color: #64748b;
+	font-size: 0.75rem;
+	letter-spacing: 0.08em;
+	margin: 0 0 4px;
+	text-transform: uppercase;
+}
+
+.name-card h2 {
+	color: #183247;
+	font-size: 1.25rem;
+	margin: 0;
+}

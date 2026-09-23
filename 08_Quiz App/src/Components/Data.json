@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "What does === check in JavaScript?",
+    "options": [
+      "Only value",
+      "Only type",
+      "Value and type",
+      "Only reference"
+    ],
+    "answer": "Value and type"
+  },
+  {
+    "id": 2,
+    "question": "Which React Hook is used to manage component state?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useRef",
+      "useMemo"
+    ],
+    "answer": "useState"
+  },
+  {
+    "id": 3,
+    "question": "Which HTTP method is commonly used to create new data?",
+    "options": [
+      "GET",
+      "POST",
+      "DELETE",
+      "PUT"
+    ],
+    "answer": "POST"
+  },
+  {
+    "id": 4,
+    "question": "MongoDB is which type of database?",
+    "options": [
+      "Relational database",
+      "NoSQL document database",
+      "Graph database",
+      "File database"
+    ],
+    "answer": "NoSQL document database"
+  },
+  {
+    "id": 5,
+    "question": "What does CRUD stand for?",
+    "options": [
+      "Create, Read, Update, Delete",
+      "Create, Run, Update, Deploy",
+      "Connect, Read, Upload, Delete",
+      "Create, Render, Use, Deploy"
+    ],
+    "answer": "Create, Read, Update, Delete"
+  }
+]
