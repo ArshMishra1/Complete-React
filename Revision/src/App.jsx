@@ -1,4 +1,6 @@
 import Components from './Components/Components'
+import Button from './Context API/Pages/Button'
+import Navbar from './Context API/Pages/Navbar'
 import Formhandling from './Form/Formhandling'
 import APPJSX from './Jsx/APPJSX'
 import Revision from './Jsx/Revision'
@@ -17,7 +19,9 @@ const App = () => {
        <Revision/> */}
       {/* <ParentCard/> */}
      {/* <Parent/> */}
-     <Formhandling/>
+     {/* <Formhandling/> */}
+     
+     <Navbar/>
      </>
   )
 }
