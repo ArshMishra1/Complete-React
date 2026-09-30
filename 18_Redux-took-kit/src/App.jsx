@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment ,setvaluecoutner } from "./redux/counterSlice";
 import Navbar from "../Navbar";
+import Product from "./Product";
 
 const App = () => {
   const [value , setvalue]=useState("")
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <>
     <Navbar/>
+    <Product/>
     <div className=" flex  justify-center items-center bg-lime-300 flex-col h-screen gap-3">
       <h1 className=" text-5xl font-bold">Redux Tool Kit </h1>
       <h1 className="text-3xl text-black font-semibold">Counter</h1>
