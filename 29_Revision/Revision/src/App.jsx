@@ -4,6 +4,8 @@ import userData from './UserData'
 import User from "./User"
 import Product from "./Product"
 import Object from './Object'
+import App2 from './App2'
+import App3 from './App3'
 
 // const App=()=>{
 //   return(
@@ -26,16 +28,18 @@ import Object from './Object'
 // }
 // export default App
 const App = () => {
-  const userinfo={
-     fileName: "user-01.jpg",
-    phoneNumber: "202-555-0101",
-    address: "101 Example Street, Sample City"
-  }
+  // const userinfo={
+  //    fileName: "user-01.jpg",
+  //   phoneNumber: "202-555-0101",
+  //   address: "101 Example Street, Sample City"
+  // }
   return (
     <>
-           <Product userData={userData}/>
+           {/* <Product userData={userData}/>
            <User Username={"arsh"} city={"nodia"}/>
-           <Object userinfo={userinfo}/>
+           <Object userinfo={userinfo}/> */}
+           {/* <App2/> */}
+           <App3/>
     </>
   )
 }
