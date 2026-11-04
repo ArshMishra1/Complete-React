@@ -1,3 +1,4 @@
+
 //How to send data from child to parent component in React? ✅
 
 import { useState } from "react"
@@ -23,6 +24,5 @@ const App3 = () => {
 }
 
 export default App3
-//UseEffect
-//Conditional Rendering 
-//List Rendering
+//Conditional Rendering ✅
+//List Rendering ✅
