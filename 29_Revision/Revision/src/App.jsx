@@ -7,6 +7,7 @@ import Object from './Object'
 import App2 from './App2'
 import App3 from './App3'
 import App4 from './App4'
+import App5 from './App5'
 
 // const App=()=>{
 //   return(
@@ -28,12 +29,15 @@ import App4 from './App4'
 //   )
 // }
 // export default App
+import { useState } from "react"
 const App = () => {
   // const userinfo={
   //    fileName: "user-01.jpg",
   //   phoneNumber: "202-555-0101",
   //   address: "101 Example Street, Sample City"
   // }
+  const [mounte ,unmounted]=useState(true)
+  
   return (
     <>
            {/* <Product userData={userData}/>
@@ -41,7 +45,13 @@ const App = () => {
            <Object userinfo={userinfo}/> */}
            {/* <App2/> */}
            {/* <App3/> */}
-           <App4/>
+           {/* <App4/> */}
+          
+           <button onClick={ ()=>{
+                 unmounted(!mounte)
+           }}> toggle button</button>
+           { mounte ?  <App5/> :"Remove"}
+           
     </>
   )
 }
